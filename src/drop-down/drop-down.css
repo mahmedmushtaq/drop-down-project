@@ -1,0 +1,50 @@
+.drop_down--container_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drop_down--options_btn {
+  background-color: transparent;
+  border: 1px solid #7f8c8d;
+  width: 200px;
+  margin-right: auto;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.drop_down--options_btn:focus {
+  outline: none;
+  border: 1px solid #7f8c8d;
+}
+
+.drop_down--options_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.drop_down--checkbox {
+  border: 1px solid black;
+}
+
+.drop_down--form_group {
+  word-break: break-all;
+  padding: 10;
+  width: 100%;
+  text-align: center;
+}
+
+.drop_down--options_item_div {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+  margin-right: 1px;
+}
+
+.drop_down--options_item_container_div {
+  display: flex;
+}
